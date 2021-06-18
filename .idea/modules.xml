@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/basico/basico.iml" filepath="$PROJECT_DIR$/basico/basico.iml" />
+      <module fileurl="file://$PROJECT_DIR$/basico_java/basico_java.iml" filepath="$PROJECT_DIR$/basico_java/basico_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/curso_java.iml" filepath="$PROJECT_DIR$/curso_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orientacao-objetos/orientacao-objetos.iml" filepath="$PROJECT_DIR$/orientacao-objetos/orientacao-objetos.iml" />
+    </modules>
+  </component>
+</project>
