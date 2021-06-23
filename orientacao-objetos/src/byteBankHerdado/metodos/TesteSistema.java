@@ -1,9 +1,6 @@
 package byteBankHerdado.metodos;
 
-import byteBankHerdado.classes.Administrador;
-import byteBankHerdado.classes.Designer;
-import byteBankHerdado.classes.Gerente;
-import byteBankHerdado.classes.SistemaInterno;
+import byteBankHerdado.classes.*;
 
 public class TesteSistema {
 
@@ -15,8 +12,12 @@ public class TesteSistema {
         Administrador adm1 = new Administrador();
         adm1.setSenha(2221);
 
+        Cliente cliente1 = new Cliente();
+        cliente1.setSenha(2220);
+
         SistemaInterno auth = new SistemaInterno();
         auth.autentica(gerente1);
         auth.autentica(adm1);
+        auth.autentica(cliente1);
     }
 }
