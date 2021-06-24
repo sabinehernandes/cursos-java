@@ -20,22 +20,17 @@ public abstract class Conta {
 //        this.saldo += valor;
 //    }
 
-    public boolean saca(double valor) {
-        if(this.saldo >= valor) {
-            this.saldo -= valor;
-            return true;
-        } else {
-            return false;
+    public void saca(double valor) throws SaldoInsuficienteException{
+        if(this.saldo < valor) {
+            throw new SaldoInsuficienteException("O saque não ocorreu pois seu saldo é de R$" + this.saldo + " e o valor a ser sacado é de R$ " + valor);
         }
+        this.saldo -= valor;
+
     }
 
-    public boolean transfere(double valor, Conta destino) {
-        if (this.saca(valor)){
-            destino.deposita(valor);
-            return true;
-        } else {
-            return false;
-        }
+    public void transfere(double valor, Conta destino) throws SaldoInsuficienteException {
+        this.saca(valor);
+        destino.deposita(valor);
     }
 
     //Pega o saldo

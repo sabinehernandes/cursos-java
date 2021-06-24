@@ -2,9 +2,10 @@ package byteBankHerdadoConta.metodos;
 
 import byteBankHerdadoConta.classes.ContaCorrente;
 import byteBankHerdadoConta.classes.ContaPoupanca;
+import byteBankHerdadoConta.classes.SaldoInsuficienteException;
 
 public class TesteContas {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws SaldoInsuficienteException {
 
         ContaCorrente cc = new ContaCorrente(1001, 10001);
         cc.deposita(100.0);
