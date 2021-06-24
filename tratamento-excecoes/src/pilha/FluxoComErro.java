@@ -7,7 +7,7 @@ public class FluxoComErro {
         try {
             metodo1();
             // O | equivale a fazer outro try catch
-        } catch (ArithmeticException | NullPointerException | MinhaExcecao ex) {
+        } catch (ArithmeticException | NullPointerException ex) {
             String mensagem = ex.getMessage();
             System.out.println("Exception " + mensagem);
             ex.printStackTrace();
