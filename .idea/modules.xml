@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/basico_java/basico_java.iml" filepath="$PROJECT_DIR$/basico_java/basico_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/curso_java.iml" filepath="$PROJECT_DIR$/curso_java.iml" />
       <module fileurl="file://$PROJECT_DIR$/orientacao-objetos/orientacao-objetos.iml" filepath="$PROJECT_DIR$/orientacao-objetos/orientacao-objetos.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tratamento-excecoes/tratamento-excecoes.iml" filepath="$PROJECT_DIR$/tratamento-excecoes/tratamento-excecoes.iml" />
     </modules>
   </component>
 </project>
